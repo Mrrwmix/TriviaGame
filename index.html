@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +11,52 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="assets/javascript/jquery-3.4.1.slim.min.js"></script>
 </head>
+
 <body>
     <div class="container bg-light border border-secondary rounded mt-2">
         <div class="row mt-2">
             <div class="col-lg-12">
-                <h1 class="text-center">_____ Trivia Game!</h1>
+                <h1 class="text-center text-muted">The Wheel of Time Trivia Game!</h1>
             </div>
         </div>
         <div class="row"></div>
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="text-center" id="timer">Filler text</h2>
+                <h2 class="text-center text-danger" id="timer">Time Remaining</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12" id="question">
-                <h2 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate dolorum porro nobis neque unde doloremque eligendi quae accusantium, inventore veniam vel autem sed aperiam alias laboriosam cupiditate, natus error ipsam!</h2>
+            <div class="col-lg-12 text-center" id="question1">
+                <h2>Which one of these characters is NOT from The Two Rivers?</h2>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="rand" value="rand">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Rand Al'Thor
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="perrin" value="perrin">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Perrin Aybara
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="perrin" value="perrin">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Elyas Machera
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="matrim" value="matrim">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Matrim Cauthon
+                    </label>
+                </div>
             </div>
         </div>
     </div>
+    </div>
 </body>
-    <script src="assets/javascript/app.js"></script>
+<script src="assets/javascript/app.js"></script>
+
 </html>
