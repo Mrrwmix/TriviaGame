@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container bg-light border border-secondary rounded mt-2">
+    <div class="container bg-light border border-secondary rounded my-5 py-5">
         <div class="row mt-2">
             <div class="col-lg-12">
                 <h1 class="text-center text-muted">The Wheel of Time Trivia Game!</h1>
@@ -50,6 +50,13 @@
                     <h2>You were wrong.</h2>
                 </p>
                 <img class="img-fluid" src="assets/images/wrong.gif">
+                <p class="loadingTimer"></p>
+            </div>
+            <div class="col-lg-12 text-center" id="unansweredQ">
+                <p>
+                    <h2>Answer the question!</h2>
+                </p>
+                <img class="img-fluid" src="assets/images/unanswered.gif">
                 <p class="loadingTimer"></p>
             </div>
             <div class="col-lg-12 text-center" id="question1">
@@ -140,7 +147,7 @@
                 </div>
                 <div class="form-check wrong">
                     <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="wrong">
-                        Red Army</button>
+                        Snakes and Foxes</button>
                 </div>
                 <div class="form-check correct">
                     <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="correct">
@@ -170,7 +177,7 @@
                 <h2>What are the followers of the Dark One called?</h2>
                 <div class="form-check wrong">
                     <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="wrong">
-                        The Chosen</button>
+                        Aiel</button>
                 </div>
                 <div class="form-check correct">
                     <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="correct">
@@ -247,16 +254,16 @@
                 <p>
                     <h3 class="text-info"><b>Results</b></h3>
                 </p>
-                <div class="text-right" style="width: 50%">
-                <p>
-                    Correct answers: <span id="correctAnswers"></span>
-                </p>
-                <p>
-                    Incorrect: <span id="incorrectAnswers"></span>
-                </p>
-                <p>
-                    Unanswered: <span id="unansweredOnes"></span>
-                </p>
+                <div class="text-right" style="width: 55%">
+                    <p>
+                        Correct: <span id="correctAnswers"></span>
+                    </p>
+                    <p>
+                        Incorrect: <span id="incorrectAnswers"></span>
+                    </p>
+                    <p>
+                        Unanswered: <span id="unansweredOnes"></span>
+                    </p>
                 </div>
                 <p>
                     <h3>Try again?</h3>

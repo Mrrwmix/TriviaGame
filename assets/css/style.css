@@ -51,6 +51,9 @@ body {
 #wrongLoading {
     display: none;
 }
+#unansweredQ {
+    display: none;
+}
 #question11 {
     display: none;
 }
