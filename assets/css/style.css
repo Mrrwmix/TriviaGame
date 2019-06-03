@@ -13,7 +13,7 @@ body {
 }
 
 #question1 {
-    display: block;
+    display: none;
 }
 #question2 {
     display: none;
