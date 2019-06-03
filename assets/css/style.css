@@ -45,3 +45,12 @@ body {
 #timer {
     display: none;
 }
+#correctLoading {
+    display: none;
+}
+#wrongLoading {
+    display: none;
+}
+#question11 {
+    display: none;
+}

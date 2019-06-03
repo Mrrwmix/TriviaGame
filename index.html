@@ -38,6 +38,20 @@
                 </p>
                 <button type="button" class="btn btn-dark btn-lg btn-block mb-2" id="start">Start</button>
             </div>
+            <div class="col-lg-12 text-center" id="correctLoading">
+                <p>
+                    <h2>You were correct!</h2>
+                </p>
+                <img class="img-fluid" src="assets/images/correct.gif">
+                <p class="loadingTimer"></p>
+            </div>
+            <div class="col-lg-12 text-center" id="wrongLoading">
+                <p>
+                    <h2>You were wrong.</h2>
+                </p>
+                <img class="img-fluid" src="assets/images/wrong.gif">
+                <p class="loadingTimer"></p>
+            </div>
             <div class="col-lg-12 text-center" id="question1">
                 <h2>Which one of these characters is NOT from The Two Rivers?</h2>
                 <div class="form-check wrong">
@@ -193,7 +207,7 @@
             <div class="col-lg-12 text-center" id="question9">
                 <h2>Shadar Logoth was once a great city named __________.</h2>
                 <div class="form-check wrong">
-                    <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="correct">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="wrong">
                         Illian</button>
                 </div>
                 <div class="form-check wrong">
@@ -212,11 +226,11 @@
             <div class="col-lg-12 text-center" id="question10">
                 <h2>Which one of the following is not one of The Three Oaths?</h2>
                 <div class="form-check wrong">
-                    <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="correct">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="wrong">
                         To speak no word that is not true.</button>
                 </div>
                 <div class="form-check correct">
-                    <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="wrong">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block mb-2" value="correct">
                         To show no emotion.</button>
                 </div>
                 <div class="form-check wrong">
@@ -228,6 +242,26 @@
                         Never to use the One Power as a weapon except against Darkfriends or Shadowspawn, or in the last
                         extreme defense of her life, the life of her Warder, or another Aes Sedai.</button>
                 </div>
+            </div>
+            <div class="col-lg-12 text-center" id="question11">
+                <p>
+                    <h3 class="text-info"><b>Results</b></h3>
+                </p>
+                <div class="text-right" style="width: 50%">
+                <p>
+                    Correct answers: <span id="correctAnswers"></span>
+                </p>
+                <p>
+                    Incorrect: <span id="incorrectAnswers"></span>
+                </p>
+                <p>
+                    Unanswered: <span id="unansweredOnes"></span>
+                </p>
+                </div>
+                <p>
+                    <h3>Try again?</h3>
+                    <button type="button" class="btn btn-info btn-lg btn-block mb-2" id="restarter">Restart</button>
+                </p>
             </div>
         </div>
     </div>
