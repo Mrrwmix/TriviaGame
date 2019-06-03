@@ -14,4 +14,6 @@ var questionNumber = 0;
 
 // Checking answer or timeout function. Add classes bg-danger and bg-success classes to wrong/right answers. Clear them before loading the next question.
 
+// $("button").attr("value","wrong").toggleClass("btn-secondary btn-danger") switch secondary and danger to reset this
+
 
