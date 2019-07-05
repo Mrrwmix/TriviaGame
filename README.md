@@ -1,17 +1,15 @@
 # TriviaGame
 
-Option Two: Advanced Assignment (Timed Questions)
+**Deployed website: https://mrrwmix.github.io/TriviaGame/
 
-https://www.youtube.com/watch?v=xhmmiRmxQ8Q&feature=youtu.be
+**Description of the Problem
 
-You'll create a trivia game that shows only one question until the player answers it or their time runs out.
-If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
+Creating a trivia game that shows only one question until the player answers it or time runs out. If the player selects the correct answer, a congratulatory gif appears. However, if the wrong answer is selected, then a different gif is displayed. Similarly, if a user doesn't answer in time, yet another gif will appear. Regardless of what happens, the next question displays after a few seconds. The final screen shows the number of correct, incorrect, and unanswered questions. 
 
-The scenario is similar for wrong answers and time-outs.
+**How I Solved It
 
+Figuring out how to work with intervals and timeouts were the main challenges here. Various functions were created for answering questions, displaying the correct answers, disabling buttons, showing different screens, and allowing for a reset function.
 
-If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
-If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
+**Technical approach
 
-
-On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
+Came up with all of the questions first. Next, made sure the intervals and timeouts were working. Lastly, disabled answer selections after 1 click and created the restart function.
